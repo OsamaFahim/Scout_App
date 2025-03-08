@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <array name="positions">
+    <item>Driver</item>
+    <item>Blue 1</item>
+    <item>Blue 2</item>
+    <item>Blue 3</item>
+    <item>Red 1</item>
+    <item>Red 2</item>
+    <item>Red 3</item>
+  </array>
+
+  <string-array name="team_list">
+    <item>1714</item>
+    <item>1716</item>
+    <item>1792</item>
+    <item>1806</item>
+    <item>2039</item>
+    <item>2062</item>
+    <item>2129</item>
+    <item>2169</item>
+    <item>2175</item>
+    <item>2227</item>
+    <item>2264</item>
+    <item>2472</item>
+    <item>2491</item>
+    <item>2501</item>
+    <item>2512</item>
+    <item>2574</item>
+    <item>2846</item>
+    <item>2855</item>
+    <item>2987</item>
+    <item>3023</item>
+    <item>3082</item>
+    <item>3100</item>
+    <item>3130</item>
+    <item>3206</item>
+    <item>3212</item>
+    <item>3297</item>
+    <item>3418</item>
+    <item>3883</item>
+    <item>4166</item>
+    <item>4182</item>
+    <item>4229</item>
+    <item>4230</item>
+    <item>4623</item>
+    <item>4703</item>
+    <item>4786</item>
+    <item>5232</item>
+    <item>5271</item>
+    <item>5275</item>
+    <item>5339</item>
+    <item>5720</item>
+    <item>5913</item>
+    <item>6044</item>
+    <item>6045</item>
+    <item>6047</item>
+    <item>6132</item>
+    <item>6147</item>
+    <item>6419</item>
+    <item>6574</item>
+    <item>6758</item>
+    <item>7273</item>
+    <item>7530</item>
+    <item>7619</item>
+    <item>8122</item>
+    <item>8700</item>
+    <item>8803</item>
+  </string-array>
+</resources>

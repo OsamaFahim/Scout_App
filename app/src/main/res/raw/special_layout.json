@@ -1,0 +1,58 @@
+{
+  "mCell": [
+    {
+      "mCellId": 0,
+      "mParam": {
+        "cellSegments": 4,
+        "cellSegmentLabels": [
+          "Team 1",
+          "Team 2",
+          "Team 3",
+          "No Team"
+        ],
+        "cellType": "Special",
+        "cellSpecialTeamColor": "Blue",
+        "helpText": "",
+        "cellCategory": "Auto",
+        "helpPictureSelector": "None",
+        "helpTitle": "Helpful Stuff"
+      },
+      "mTitle": "Blue Team",
+      "mType": "Special"
+    },
+    {
+      "mCellId": 1,
+      "mParam": {
+        "cellSegments": 4,
+        "cellSegmentLabels": [
+          "Team 1",
+          "Team 2",
+          "Team 3",
+          "No Team"
+        ],
+        "cellType": "Special",
+        "cellSpecialTeamColor": "Red",
+        "helpText": "",
+        "cellCategory": "Teleop",
+        "helpPictureSelector": "None",
+        "helpTitle": "Helpful Stuff"
+      },
+      "mTitle": "Red Team",
+      "mType": "Special"
+    },
+    {
+      "mCellId": 2,
+      "mParam": {
+        "cellType": "Text",
+        "helpText": "Be Specific, More info is always better",
+        "cellCategory": "Endgame",
+        "helpPictureSelector": "None",
+        "helpTitle": "Comments"
+      },
+      "mTitle": "Comments",
+      "mType": "Text"
+    }
+  ]
+}
+
+^{"entryLabels":[],"mCell":[]}

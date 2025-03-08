@@ -1,0 +1,250 @@
+{
+  "mCell": [
+    {
+      "mCellId": 0,
+      "mParam": {
+        "cellDefault": 0,
+        "cellMax": 50,
+        "cellMin": 0,
+        "cellType": "DoubleCounter",
+        "cellUnit": 1,
+        "helpText": "",
+        "cellCategory": "Auto",
+        "helpPictureSelector": "Auto",
+        "helpTitle": ""
+      },
+      "mTitle": "Coral Level 1 & 2",
+      "mType": "DoubleCounter"
+    },
+    {
+      "mCellId": 0,
+      "mParam": {
+        "cellDefault": 0,
+        "cellMax": 12,
+        "cellMin": 0,
+        "cellType": "DoubleCounter",
+        "cellUnit": 1,
+        "helpText": "",
+        "cellCategory": "Auto",
+        "helpPictureSelector": "Auto",
+        "helpTitle": ""
+      },
+      "mTitle": "Coral Level 3 & 4",
+      "mType": "DoubleCounter"
+    },
+    {
+      "mCellId": 0,
+      "mParam": {
+        "cellDefault": 0,
+        "cellMax": 50,
+        "cellMin": 0,
+        "cellType": "Counter",
+        "cellUnit": 1,
+        "helpText": "",
+        "cellCategory": "Auto",
+        "helpPictureSelector": "Auto",
+        "helpTitle": ""
+      },
+      "mTitle": "Algae Removed",
+      "mType": "Counter"
+    },
+    {
+      "mCellId": 0,
+      "mParam": {
+        "cellDefault": 0,
+        "cellMax": 50,
+        "cellMin": 0,
+        "cellType": "Counter",
+        "cellUnit": 1,
+        "helpText": "",
+        "cellCategory": "Auto",
+        "helpPictureSelector": "Auto",
+        "helpTitle": ""
+      },
+      "mTitle": "Algae Processed",
+      "mType": "Counter"
+    },
+    {
+      "mCellId": 0,
+      "mParam": {
+        "cellDefault": 0,
+        "cellMax": 50,
+        "cellMin": 0,
+        "cellType": "Counter",
+        "cellUnit": 1,
+        "helpText": "",
+        "cellCategory": "Auto",
+        "helpPictureSelector": "Auto",
+        "helpTitle": ""
+      },
+      "mTitle": "Algae Barged",
+      "mType": "Counter"
+    },
+    {
+      "mCellId": 2,
+      "mParam": {
+        "cellType": "YesNo",
+        "helpText": "",
+        "cellCategory": "Auto",
+        "helpPictureSelector": "None",
+        "helpTitle": ""
+      },
+      "mTitle": "Moved in auto?",
+      "mType": "YesNo"
+    },
+    {
+      "mCellId": 0,
+      "mParam": {
+        "cellDefault": 0,
+        "cellMax": 50,
+        "cellMin": 0,
+        "cellType": "DoubleCounter",
+        "cellUnit": 1,
+        "helpText": "",
+        "cellCategory": "Teleop",
+        "helpPictureSelector": "Auto",
+        "helpTitle": ""
+      },
+      "mTitle": "Coral Level 1 & 2",
+      "mType": "DoubleCounter"
+    },
+    {
+      "mCellId": 0,
+      "mParam": {
+        "cellDefault": 0,
+        "cellMax": 12,
+        "cellMin": 0,
+        "cellType": "DoubleCounter",
+        "cellUnit": 1,
+        "helpText": "",
+        "cellCategory": "Teleop",
+        "helpPictureSelector": "Auto",
+        "helpTitle": ""
+      },
+      "mTitle": "Coral Level 3 & 4",
+      "mType": "DoubleCounter"
+    },
+    {
+      "mCellId": 0,
+      "mParam": {
+        "cellDefault": 0,
+        "cellMax": 50,
+        "cellMin": 0,
+        "cellType": "Counter",
+        "cellUnit": 1,
+        "helpText": "",
+        "cellCategory": "Teleop",
+        "helpPictureSelector": "Auto",
+        "helpTitle": ""
+      },
+      "mTitle": "Algae Removed",
+      "mType": "Counter"
+    },
+    {
+      "mCellId": 0,
+      "mParam": {
+        "cellDefault": 0,
+        "cellMax": 50,
+        "cellMin": 0,
+        "cellType": "Counter",
+        "cellUnit": 1,
+        "helpText": "",
+        "cellCategory": "Teleop",
+        "helpPictureSelector": "Auto",
+        "helpTitle": ""
+      },
+      "mTitle": "Algae Processed",
+      "mType": "Counter"
+    },
+    {
+      "mCellId": 0,
+      "mParam": {
+        "cellDefault": 0,
+        "cellMax": 50,
+        "cellMin": 0,
+        "cellType": "Counter",
+        "cellUnit": 1,
+        "helpText": "",
+        "cellCategory": "Teleop",
+        "helpPictureSelector": "Auto",
+        "helpTitle": ""
+      },
+      "mTitle": "Algae Barged",
+      "mType": "Counter"
+    },
+    {
+      "mCellId": 0,
+      "mParam": {
+        "cellDefault": 0,
+        "cellMax": 50,
+        "cellMin": 0,
+        "cellType": "Counter",
+        "cellUnit": 1,
+        "helpText": "",
+        "cellCategory": "Teleop",
+        "helpPictureSelector": "Auto",
+        "helpTitle": ""
+      },
+      "mTitle": "Human Player Barged",
+      "mType": "Counter"
+    },
+    {
+      "mCellId": 3,
+      "mParam": {
+        "cellSegmentLabels": [
+          "Dead",
+          "Parked",
+          "Shallow",
+          "Deep"
+        ],
+        "cellSegments": 4,
+        "cellType": "Segment",
+        "helpText": "Default",
+        "cellCategory": "Endgame",
+        "helpPictureSelector": "None",
+        "helpTitle": "If not in list do other and leave a comment"
+      },
+      "mTitle": "Endgame",
+      "mType": "Segment"
+    },
+    {
+      "mCellId": 1,
+      "mParam": {
+        "cellType": "YesNo",
+        "helpText": "You must leave a comment if you say yes to this, explaining what happened!",
+        "cellCategory": "Endgame",
+        "helpPictureSelector": "None",
+        "helpTitle": "Did something go wrong with the robot?"
+      },
+      "mTitle": "Did the robot break",
+      "mType": "YesNo"
+    },
+    {
+      "mCellId": 9,
+      "mParam": {
+        "cellType": "YesNo",
+        "helpText": "Did they block the other team or cause them to slow down",
+        "cellCategory": "Endgame",
+        "helpPictureSelector": "None",
+        "helpTitle": "Defense"
+      },
+      "mTitle": "Played defense?",
+      "mType": "YesNo"
+    },
+    {
+      "mCellId": 10,
+      "mParam": {
+        "cellTextHidden": false,
+        "cellType": "Text",
+        "helpText": "Be Specific, More info is always better",
+        "cellCategory": "Endgame",
+        "helpPictureSelector": "None",
+        "helpTitle": "Comments"
+      },
+      "mTitle": "Comments",
+      "mType": "Text"
+    }
+  ]
+}
+
+^{"entryLabels":[],"mCell":[]}
