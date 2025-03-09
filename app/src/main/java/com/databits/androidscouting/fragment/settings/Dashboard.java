@@ -29,6 +29,7 @@ import com.databits.androidscouting.databinding.FragmentSettingsDashboardBinding
 import com.databits.androidscouting.databinding.UiStatusIndicatorBinding;
 import com.databits.androidscouting.util.FileUtils;
 import com.databits.androidscouting.util.MatchInfo;
+import com.databits.androidscouting.util.PreferenceManager;
 import com.databits.androidscouting.util.ScoutUtils;
 import com.databits.androidscouting.util.TeamInfo;
 import com.preference.PowerPreference;
@@ -47,9 +48,10 @@ public class Dashboard extends Fragment {
   MatchInfo matchInfo;
   TeamInfo teamInfo;
 
-  Preference configPreference = PowerPreference.getFileByName("Config");
-  Preference debugPreference = PowerPreference.getFileByName("Debug");
-
+  //Preference configPreference = PowerPreference.getFileByName("Config");
+  //Preference debugPreference = PowerPreference.getFileByName("Debug");
+  Preference configPreference = PreferenceManager.getInstance().getConfigPreference();
+  Preference debugPreference = PreferenceManager.getInstance().getDebugPreference();
   SimpleStorageHelper storageHelper = new SimpleStorageHelper(this);
 
   MainActivity mainActivity;

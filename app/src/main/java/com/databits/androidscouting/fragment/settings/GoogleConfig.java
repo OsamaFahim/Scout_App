@@ -18,6 +18,7 @@ import com.databits.androidscouting.databinding.FragmentSettingsGoogleconfigBind
 import com.databits.androidscouting.util.FileUtils;
 import com.databits.androidscouting.util.GoogleAuthActivity;
 import com.databits.androidscouting.util.MatchInfo;
+import com.databits.androidscouting.util.PreferenceManager;
 import com.databits.androidscouting.util.ScoutUtils;
 import com.databits.androidscouting.util.TeamInfo;
 import com.google.android.material.textfield.TextInputEditText;
@@ -32,8 +33,10 @@ import java.util.Objects;
 
 public class GoogleConfig extends Fragment {
   private FragmentSettingsGoogleconfigBinding binding;
-  Preference configPreference = PowerPreference.getFileByName("Config");
-  Preference listPreference = PowerPreference.getFileByName("List");
+  //Preference configPreference = PowerPreference.getFileByName("Config");
+  //Preference listPreference = PowerPreference.getFileByName("List");
+  Preference configPreference = PreferenceManager.getInstance().getConfigPreference();
+  Preference listPreference = PreferenceManager.getInstance().getListPreference();
   ScoutUtils scoutUtils;
   FileUtils fileUtils;
   MatchInfo matchInfo;

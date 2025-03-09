@@ -247,7 +247,7 @@
         android:layout_weight="1"
         app:autoSizeTextType="uniform"
         app:sb_selectedTextColor="@color/white"
-        app:sb_text="Speciality"
+        app:sb_text="Specialty"
         app:sb_textColor="@color/black"
         />
   </com.addisonelliott.segmentedbutton.SegmentedButtonGroup>

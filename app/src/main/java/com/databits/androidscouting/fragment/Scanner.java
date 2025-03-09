@@ -152,10 +152,14 @@ public class Scanner extends Fragment {
             } else if (lastScannedData == null || lastScannedData.trim().isEmpty()) {
                 showScanRetryDialog("No QR code data scanned. Please scan a valid QR code before uploading.");
             } else {
-                // Start the Sheets upload process.
+                // Save the scanned data only when the user uploads.
+                saveData(lastScannedData);
                 call_sheets();
+                // Clear the temporary data after uploading to prevent duplicates.
+                lastScannedData = null;
             }
         });
+
 
         // Set up upload mode selection.
         binding.buttonGroupUploadMode.setOnPositionChangedListener(position -> {
@@ -322,14 +326,13 @@ public class Scanner extends Fragment {
                         setupTeamDisplay(match);
                     } else if (rawData.startsWith("role")) {
                         process_qr(rawData);
-                    } else {
-                        // For any other generic QR data, simply save it.
-                        saveData(rawData);
-                    }
-                    // Store the successfully parsed QR data.
+                    }  else {
+                    // For generic QR data, just store it temporarily.
                     lastScannedData = rawData;
-                    lastScanError = null;
-                } catch (Exception e) {
+                }
+                lastScanError = null;
+
+            } catch (Exception e) {
                     Log.e(TAG, "Error processing QR code", e);
                     lastScannedData = null;
                     lastScanError = "An error occurred while processing the QR code. Please scan again.";
