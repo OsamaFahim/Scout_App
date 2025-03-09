@@ -17,6 +17,7 @@ import androidx.navigation.fragment.NavHostFragment;
 
 import com.databits.androidscouting.R;
 import com.databits.androidscouting.databinding.FragmentDrawingMapBinding;
+import com.databits.androidscouting.util.PreferenceManager;
 import com.github.dhaval2404.colorpicker.ColorPickerDialog;
 import com.github.dhaval2404.colorpicker.model.ColorShape;
 import com.mihir.drawingcanvas.drawingView;

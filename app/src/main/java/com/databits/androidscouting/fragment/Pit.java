@@ -30,6 +30,7 @@ import com.databits.androidscouting.R;
 import com.databits.androidscouting.databinding.FragmentPitScoutBinding;
 import com.databits.androidscouting.util.FileUtils;
 import com.databits.androidscouting.util.MatchInfo;
+import com.databits.androidscouting.util.PreferenceManager;
 import com.databits.androidscouting.util.ScoutUtils;
 import com.databits.androidscouting.util.TeamInfo;
 import com.google.android.material.textfield.TextInputEditText;

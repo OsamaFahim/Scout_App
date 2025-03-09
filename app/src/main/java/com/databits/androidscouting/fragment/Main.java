@@ -24,6 +24,7 @@ import com.databits.androidscouting.R;
 import com.databits.androidscouting.databinding.FragmentMainBinding;
 import com.databits.androidscouting.util.FileUtils;
 import com.databits.androidscouting.util.GoogleAuthActivity;
+import com.databits.androidscouting.util.PreferenceManager;
 import com.databits.androidscouting.util.ScoutUtils;
 import com.databits.androidscouting.util.TeamInfo;
 import com.preference.PowerPreference;
