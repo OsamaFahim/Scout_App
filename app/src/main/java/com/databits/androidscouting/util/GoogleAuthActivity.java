@@ -14,7 +14,7 @@ import com.preference.Preference;
 import java.util.Arrays;
 
 public class GoogleAuthActivity extends AppCompatActivity {
-  Preference configPreference = PowerPreference.getFileByName("Config");
+  Preference configPreference = PreferenceManager.getInstance().getConfigPreference();
 
   private GoogleAccountCredential credential;
 

@@ -26,7 +26,7 @@ import com.travijuu.numberpicker.library.NumberPicker;
 import java.util.Objects;
 
 public class Drawing extends Fragment {
-  Preference debugPreference = PowerPreference.getFileByName("Debug");
+  Preference debugPreference = PreferenceManager.getInstance().getDebugPreference();
 
   private FragmentDrawingMapBinding binding;
 

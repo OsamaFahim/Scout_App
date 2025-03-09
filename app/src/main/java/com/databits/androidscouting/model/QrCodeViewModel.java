@@ -1,4 +1,4 @@
-package com.databits.androidscouting.model;
+  package com.databits.androidscouting.model;
 
 import android.content.Intent;
 import android.graphics.Rect;

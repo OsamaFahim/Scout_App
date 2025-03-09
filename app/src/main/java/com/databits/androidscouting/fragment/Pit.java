@@ -48,9 +48,12 @@ public class Pit extends Fragment {
 
     private FragmentPitScoutBinding binding;
 
-    Preference configPreference = PowerPreference.getFileByName("Config");
-    Preference debugPreference = PowerPreference.getFileByName("Debug");
-    Preference listPreference = PowerPreference.getFileByName("List");
+    //    Preference configPreference = PowerPreference.getFileByName("Config");
+    //    Preference debugPreference = PowerPreference.getFileByName("Debug");
+    //    Preference listPreference = PowerPreference.getFileByName("List");
+    Preference configPreference = PreferenceManager.getInstance().getConfigPreference();
+    Preference listPreference = PreferenceManager.getInstance().getListPreference();
+    Preference debugPreference = PreferenceManager.getInstance().getDebugPreference();
 
     ScoutUtils scoutUtils;
     FileUtils fileUtils;

@@ -5,8 +5,10 @@ import com.preference.Preference;
 import com.travijuu.numberpicker.library.NumberPicker;
 
 public class MatchInfo {
-  Preference configPreference = PowerPreference.getFileByName("Config");
-  Preference debugPreference = PowerPreference.getFileByName("Debug");
+  //  Preference configPreference = PowerPreference.getFileByName("Config");
+  //  Preference debugPreference = PowerPreference.getFileByName("Debug");
+  Preference configPreference = PreferenceManager.getInstance().getConfigPreference();
+  Preference debugPreference = PreferenceManager.getInstance().getDebugPreference();
 
   int match = configPreference.getInt("current_match", 1);
 

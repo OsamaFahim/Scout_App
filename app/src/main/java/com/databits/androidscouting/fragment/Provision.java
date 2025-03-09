@@ -64,6 +64,13 @@ public class Provision extends Fragment {
 
   List<String> entryLabels = new ArrayList<>();
 
+  //  Preference configPreference = PowerPreference.getFileByName("Config");
+  //  Preference debugPreference = PowerPreference.getFileByName("Debug");
+  //  Preference listPreference = PowerPreference.getFileByName("List");
+  Preference configPreference = PreferenceManager.getInstance().getConfigPreference();
+  Preference listPreference = PreferenceManager.getInstance().getListPreference();
+  Preference debugPreference = PreferenceManager.getInstance().getDebugPreference();
+
   Preference configPreference = PowerPreference.getFileByName("Config");
   Preference debugPreference = PowerPreference.getFileByName("Debug");
   Preference listPreference = PowerPreference.getFileByName("List");

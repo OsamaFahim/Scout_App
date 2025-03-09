@@ -105,7 +105,8 @@ public class SheetsUpdateTask {
 
   public void execute() {
     // Set the spreadsheet ID (ensure this is valid).
-    spreadsheetId = "1ksCFboY3RF0d6eCQHtH2bdrPWFHXZXnicNJGz6pXndM";
+    //spreadsheetId = "1ksCFboY3RF0d6eCQHtH2bdrPWFHXZXnicNJGz6pXndM";
+    spreadsheetId = configPreference.getString("workbook_id", "");
     Log.d("SheetsUpdateTaskRunner", "Spreadsheet ID: " + spreadsheetId);
 
     // Determine the upload mode.

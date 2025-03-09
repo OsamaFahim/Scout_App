@@ -35,8 +35,13 @@ public class Main extends Fragment {
 
     private FragmentMainBinding binding;
 
-    Preference configPreference = PowerPreference.getFileByName("Config");
-    Preference debugPreference = PowerPreference.getFileByName("Debug");
+    //    Preference configPreference = PowerPreference.getFileByName("Config");
+    //    Preference debugPreference = PowerPreference.getFileByName("Debug");
+    //    Preference listPreference = PowerPreference.getFileByName("List");
+
+    Preference configPreference = PreferenceManager.getInstance().getConfigPreference();
+    Preference listPreference = PreferenceManager.getInstance().getListPreference();
+    Preference debugPreference = PreferenceManager.getInstance().getDebugPreference();
 
     TeamInfo teamInfo;
     FileUtils fileUtils;

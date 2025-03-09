@@ -92,15 +92,15 @@ public class QR extends Fragment {
     private int matchCounter = 1; // Initialized to 1
 
     // Local preferences using PowerPreference.
-    private final Preference debugPreference = PowerPreference.getFileByName("Debug");
-    private final Preference matchPreference = PowerPreference.getFileByName("Match");
-    private final Preference listPreference = PowerPreference.getFileByName("List");
-    private final Preference pitDataPreference = PowerPreference.getFileByName("PitData");
+    //private final Preference debugPreference = PowerPreference.getFileByName("Debug");
+    //private final Preference matchPreference = PowerPreference.getFileByName("Match");
+    //private final Preference listPreference = PowerPreference.getFileByName("List");
+    //private final Preference pitDataPreference = PowerPreference.getFileByName("PitData");
 
-    //    Preference pitDataPreference = PreferenceManager.getInstance().getPitDataPreference();
-    //    Preference listPreference = PreferenceManager.getInstance().getListPreference();
-    //    Preference debugPreference = PreferenceManager.getInstance().getDebugPreference();
-    //    Preference matchPreference = PreferenceManager.getInstance().getMatchPreference();
+        Preference pitDataPreference = PreferenceManager.getInstance().getPitDataPreference();
+        Preference listPreference = PreferenceManager.getInstance().getListPreference();
+        Preference debugPreference = PreferenceManager.getInstance().getDebugPreference();
+        Preference matchPreference = PreferenceManager.getInstance().getMatchPreference();
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         binding = FragmentQRBinding.inflate(inflater, container, false);

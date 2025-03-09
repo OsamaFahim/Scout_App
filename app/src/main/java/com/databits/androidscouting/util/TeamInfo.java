@@ -18,9 +18,12 @@ public class TeamInfo {
 
   public TeamInfo(Context context) {this.context = context;}
 
-  Preference configPreference = PowerPreference.getFileByName("Config");
-  Preference debugPreference = PowerPreference.getFileByName("Debug");
-  Preference listPreference = PowerPreference.getFileByName("List");
+  // Preference configPreference = PowerPreference.getFileByName("Config");
+  //  Preference debugPreference = PowerPreference.getFileByName("Debug");
+  //  Preference listPreference = PowerPreference.getFileByName("List");
+  Preference configPreference = PreferenceManager.getInstance().getConfigPreference();
+  Preference listPreference = PreferenceManager.getInstance().getListPreference();
+  Preference debugPreference = PreferenceManager.getInstance().getDebugPreference();
 
   String[][] dataArr;
 

@@ -2,7 +2,7 @@ package com.databits.androidscouting.util;
 
 import android.content.Context;
 
-import androidx.preference.Preference;
+import androidx.  preference.Preference;
 
 import com.preference.PowerPreference;
 
